@@ -15,6 +15,16 @@
 		1BEAA3352721B08E00169F5B /* Cleaner_filesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BEAA3342721B08E00169F5B /* Cleaner_filesTests.swift */; };
 		1BEAA33F2721B08E00169F5B /* Cleaner_filesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BEAA33E2721B08E00169F5B /* Cleaner_filesUITests.swift */; };
 		1BEAA3412721B08E00169F5B /* Cleaner_filesUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BEAA3402721B08E00169F5B /* Cleaner_filesUITestsLaunchTests.swift */; };
+		1BEAA3562721B56500169F5B /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BEAA3552721B56500169F5B /* Coordinator.swift */; };
+		1BEAA3582721B5CB00169F5B /* RootApplicationCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BEAA3572721B5CB00169F5B /* RootApplicationCoordinator.swift */; };
+		1BEAA35B2721B68800169F5B /* ApplicationServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BEAA35A2721B68800169F5B /* ApplicationServices.swift */; };
+		1BEAA35F2721B75C00169F5B /* KeyboardService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BEAA35E2721B75C00169F5B /* KeyboardService.swift */; };
+		1BEAA3622721B84D00169F5B /* PermissionService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BEAA3612721B84D00169F5B /* PermissionService.swift */; };
+		1BEAA3642721B8AE00169F5B /* PermissionServiceImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BEAA3632721B8AE00169F5B /* PermissionServiceImpl.swift */; };
+		1BEAA3662721B90700169F5B /* PermissionResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BEAA3652721B90700169F5B /* PermissionResult.swift */; };
+		1BEAA3692721BC2E00169F5B /* MainCleanerCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BEAA3682721BC2E00169F5B /* MainCleanerCoordinator.swift */; };
+		1BEAA36B2721BEA400169F5B /* TestApplicationCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BEAA36A2721BEA400169F5B /* TestApplicationCoordinator.swift */; };
+		1BEAA36D2721C63400169F5B /* GlobalConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BEAA36C2721C63400169F5B /* GlobalConstants.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +57,16 @@
 		1BEAA33A2721B08E00169F5B /* Cleaner filesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Cleaner filesUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1BEAA33E2721B08E00169F5B /* Cleaner_filesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cleaner_filesUITests.swift; sourceTree = "<group>"; };
 		1BEAA3402721B08E00169F5B /* Cleaner_filesUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cleaner_filesUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		1BEAA3552721B56500169F5B /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
+		1BEAA3572721B5CB00169F5B /* RootApplicationCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootApplicationCoordinator.swift; sourceTree = "<group>"; };
+		1BEAA35A2721B68800169F5B /* ApplicationServices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApplicationServices.swift; sourceTree = "<group>"; };
+		1BEAA35E2721B75C00169F5B /* KeyboardService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardService.swift; sourceTree = "<group>"; };
+		1BEAA3612721B84D00169F5B /* PermissionService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PermissionService.swift; sourceTree = "<group>"; };
+		1BEAA3632721B8AE00169F5B /* PermissionServiceImpl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PermissionServiceImpl.swift; sourceTree = "<group>"; };
+		1BEAA3652721B90700169F5B /* PermissionResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PermissionResult.swift; sourceTree = "<group>"; };
+		1BEAA3682721BC2E00169F5B /* MainCleanerCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainCleanerCoordinator.swift; sourceTree = "<group>"; };
+		1BEAA36A2721BEA400169F5B /* TestApplicationCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestApplicationCoordinator.swift; sourceTree = "<group>"; };
+		1BEAA36C2721C63400169F5B /* GlobalConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobalConstants.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +117,8 @@
 		1BEAA31C2721B08D00169F5B /* Cleaner files */ = {
 			isa = PBXGroup;
 			children = (
+				1BEAA3592721B67E00169F5B /* ApplicationServices */,
+				1BEAA3542721B55400169F5B /* Navigation */,
 				1BEAA34E2721B2EA00169F5B /* UserStories */,
 				1BEAA34D2721B2B500169F5B /* AssetsAndAppDelegates */,
 			);
@@ -128,6 +150,7 @@
 				1BEAA31F2721B08D00169F5B /* SceneDelegate.swift */,
 				1BEAA3262721B08E00169F5B /* Assets.xcassets */,
 				1BEAA3282721B08E00169F5B /* LaunchScreen.storyboard */,
+				1BEAA36C2721C63400169F5B /* GlobalConstants.swift */,
 			);
 			path = AssetsAndAppDelegates;
 			sourceTree = "<group>";
@@ -178,6 +201,53 @@
 				1BEAA3212721B08D00169F5B /* ViewController.swift */,
 			);
 			path = Module;
+			sourceTree = "<group>";
+		};
+		1BEAA3542721B55400169F5B /* Navigation */ = {
+			isa = PBXGroup;
+			children = (
+				1BEAA3552721B56500169F5B /* Coordinator.swift */,
+				1BEAA3572721B5CB00169F5B /* RootApplicationCoordinator.swift */,
+				1BEAA36A2721BEA400169F5B /* TestApplicationCoordinator.swift */,
+				1BEAA3682721BC2E00169F5B /* MainCleanerCoordinator.swift */,
+			);
+			path = Navigation;
+			sourceTree = "<group>";
+		};
+		1BEAA3592721B67E00169F5B /* ApplicationServices */ = {
+			isa = PBXGroup;
+			children = (
+				1BEAA35C2721B72400169F5B /* Services */,
+				1BEAA35A2721B68800169F5B /* ApplicationServices.swift */,
+			);
+			path = ApplicationServices;
+			sourceTree = "<group>";
+		};
+		1BEAA35C2721B72400169F5B /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				1BEAA3602721B83600169F5B /* PermissionService */,
+				1BEAA35D2721B73A00169F5B /* KeyboardService */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		1BEAA35D2721B73A00169F5B /* KeyboardService */ = {
+			isa = PBXGroup;
+			children = (
+				1BEAA35E2721B75C00169F5B /* KeyboardService.swift */,
+			);
+			path = KeyboardService;
+			sourceTree = "<group>";
+		};
+		1BEAA3602721B83600169F5B /* PermissionService */ = {
+			isa = PBXGroup;
+			children = (
+				1BEAA3612721B84D00169F5B /* PermissionService.swift */,
+				1BEAA3632721B8AE00169F5B /* PermissionServiceImpl.swift */,
+				1BEAA3652721B90700169F5B /* PermissionResult.swift */,
+			);
+			path = PermissionService;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -311,9 +381,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1BEAA35F2721B75C00169F5B /* KeyboardService.swift in Sources */,
+				1BEAA3642721B8AE00169F5B /* PermissionServiceImpl.swift in Sources */,
+				1BEAA3562721B56500169F5B /* Coordinator.swift in Sources */,
 				1BEAA3222721B08D00169F5B /* ViewController.swift in Sources */,
+				1BEAA35B2721B68800169F5B /* ApplicationServices.swift in Sources */,
+				1BEAA36D2721C63400169F5B /* GlobalConstants.swift in Sources */,
+				1BEAA3622721B84D00169F5B /* PermissionService.swift in Sources */,
+				1BEAA36B2721BEA400169F5B /* TestApplicationCoordinator.swift in Sources */,
+				1BEAA3582721B5CB00169F5B /* RootApplicationCoordinator.swift in Sources */,
 				1BEAA31E2721B08D00169F5B /* AppDelegate.swift in Sources */,
+				1BEAA3692721BC2E00169F5B /* MainCleanerCoordinator.swift in Sources */,
 				1BEAA3202721B08D00169F5B /* SceneDelegate.swift in Sources */,
+				1BEAA3662721B90700169F5B /* PermissionResult.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
