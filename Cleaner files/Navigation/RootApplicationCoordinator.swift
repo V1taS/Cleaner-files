@@ -10,15 +10,18 @@ import UIKit
 
 public final class RootApplicationCoordinator {
 
+	// MARK: - Private variables
 	private let applicationServices: ApplicationServices
 	private let window: UIWindow?
 	private var mainCleanerCoordinator: Coordinator?
 
+	// MARK: - Initialization
 	public init(applicationServices: ApplicationServices, window: UIWindow?) {
 		self.applicationServices = applicationServices
 		self.window = window
 	}
 
+	// MARK: - Private funcs
 	private func startCoordinator(with navigationController: UINavigationController) {
 		let mainCleaner = MainCleanerCoordinator(services: applicationServices, navigationController: navigationController)
 		mainCleanerCoordinator = mainCleaner

@@ -8,11 +8,13 @@
 
 import UIKit
 
-final class MainCleanerCoordinator {
+public final class MainCleanerCoordinator {
 
+	// MARK: - Private variables
 	private let navigationController: UINavigationController
 	private let services: ApplicationServices
 
+	// MARK: - Initialization
 	init(services: ApplicationServices, navigationController: UINavigationController) {
 		self.services = services
 		self.navigationController = navigationController
@@ -20,9 +22,8 @@ final class MainCleanerCoordinator {
 }
 
 extension MainCleanerCoordinator: Coordinator {
-
-	func start() {
-		let vc = ViewController()
+	public func start() {
+		let vc = MainCleanerConfigurator.createModule(with: services)
 		navigationController.viewControllers = [vc]
 	}
 }

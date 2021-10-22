@@ -14,7 +14,8 @@ public protocol ApplicationServices {
 }
 
 public final class ApplicationServicesImpl: ApplicationServices {
-	
+
+	// MARK: - Public variables
 	public var keyboardService: KeyboardService {
 		KeyboardServiceImpl()
 	}
