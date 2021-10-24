@@ -13,6 +13,20 @@
 		1BABE27E27231F7B00E3CB3B /* MainCleanerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BABE27827231F7B00E3CB3B /* MainCleanerVC.swift */; };
 		1BABE27F27231F7B00E3CB3B /* MainCleanerConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BABE27927231F7B00E3CB3B /* MainCleanerConfigurator.swift */; };
 		1BABE28027231F7B00E3CB3B /* DefaultMainCleanerPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BABE27A27231F7B00E3CB3B /* DefaultMainCleanerPresenter.swift */; };
+		1BABE28527233AEF00E3CB3B /* ReusableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BABE28427233AEF00E3CB3B /* ReusableView.swift */; };
+		1BABE28727233B5200E3CB3B /* UICollectionView+Reusable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BABE28627233B5200E3CB3B /* UICollectionView+Reusable.swift */; };
+		1BABE28927233BCB00E3CB3B /* GenericCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BABE28827233BCB00E3CB3B /* GenericCollectionViewCell.swift */; };
+		1BABE28B27233C0E00E3CB3B /* ReusableComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BABE28A27233C0E00E3CB3B /* ReusableComponent.swift */; };
+		1BABE28D27233C2300E3CB3B /* GenericCellSubview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BABE28C27233C2300E3CB3B /* GenericCellSubview.swift */; };
+		1BABE28F27233C5500E3CB3B /* CollectionViewContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BABE28E27233C5500E3CB3B /* CollectionViewContainer.swift */; };
+		1BABE29127233C7300E3CB3B /* CollectionViewDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BABE29027233C7300E3CB3B /* CollectionViewDataSource.swift */; };
+		1BABE29327233C8A00E3CB3B /* CollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BABE29227233C8A00E3CB3B /* CollectionViewController.swift */; };
+		1BABE29527233CA000E3CB3B /* ViewHolder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BABE29427233CA000E3CB3B /* ViewHolder.swift */; };
+		1BABE29F27234FD800E3CB3B /* MainCleaner2View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BABE29D27234FD800E3CB3B /* MainCleaner2View.swift */; };
+		1BABE2A4272354E100E3CB3B /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BABE2A2272354E100E3CB3B /* HeaderView.swift */; };
+		1BABE2A7272355AF00E3CB3B /* MainHeaderDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BABE2A6272355AF00E3CB3B /* MainHeaderDataSource.swift */; };
+		1BABE2A92723561800E3CB3B /* MainHeaderDataSourceModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BABE2A82723561800E3CB3B /* MainHeaderDataSourceModel.swift */; };
+		1BABE2AB27236BD900E3CB3B /* MainHeaderModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BABE2AA27236BD900E3CB3B /* MainHeaderModel.swift */; };
 		1BEAA31E2721B08D00169F5B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BEAA31D2721B08D00169F5B /* AppDelegate.swift */; };
 		1BEAA3202721B08D00169F5B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BEAA31F2721B08D00169F5B /* SceneDelegate.swift */; };
 		1BEAA32A2721B08E00169F5B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1BEAA3282721B08E00169F5B /* LaunchScreen.storyboard */; };
@@ -56,6 +70,20 @@
 		1BABE27827231F7B00E3CB3B /* MainCleanerVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainCleanerVC.swift; sourceTree = "<group>"; };
 		1BABE27927231F7B00E3CB3B /* MainCleanerConfigurator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainCleanerConfigurator.swift; sourceTree = "<group>"; };
 		1BABE27A27231F7B00E3CB3B /* DefaultMainCleanerPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefaultMainCleanerPresenter.swift; sourceTree = "<group>"; };
+		1BABE28427233AEF00E3CB3B /* ReusableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReusableView.swift; sourceTree = "<group>"; };
+		1BABE28627233B5200E3CB3B /* UICollectionView+Reusable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UICollectionView+Reusable.swift"; sourceTree = "<group>"; };
+		1BABE28827233BCB00E3CB3B /* GenericCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenericCollectionViewCell.swift; sourceTree = "<group>"; };
+		1BABE28A27233C0E00E3CB3B /* ReusableComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReusableComponent.swift; sourceTree = "<group>"; };
+		1BABE28C27233C2300E3CB3B /* GenericCellSubview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenericCellSubview.swift; sourceTree = "<group>"; };
+		1BABE28E27233C5500E3CB3B /* CollectionViewContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewContainer.swift; sourceTree = "<group>"; };
+		1BABE29027233C7300E3CB3B /* CollectionViewDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewDataSource.swift; sourceTree = "<group>"; };
+		1BABE29227233C8A00E3CB3B /* CollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewController.swift; sourceTree = "<group>"; };
+		1BABE29427233CA000E3CB3B /* ViewHolder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewHolder.swift; sourceTree = "<group>"; };
+		1BABE29D27234FD800E3CB3B /* MainCleaner2View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainCleaner2View.swift; sourceTree = "<group>"; };
+		1BABE2A2272354E100E3CB3B /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
+		1BABE2A6272355AF00E3CB3B /* MainHeaderDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainHeaderDataSource.swift; sourceTree = "<group>"; };
+		1BABE2A82723561800E3CB3B /* MainHeaderDataSourceModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainHeaderDataSourceModel.swift; sourceTree = "<group>"; };
+		1BABE2AA27236BD900E3CB3B /* MainHeaderModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainHeaderModel.swift; sourceTree = "<group>"; };
 		1BEAA31A2721B08D00169F5B /* Cleaner files.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Cleaner files.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1BEAA31D2721B08D00169F5B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1BEAA31F2721B08D00169F5B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -104,6 +132,71 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1BABE28127233AA300E3CB3B /* CustomHelpers */ = {
+			isa = PBXGroup;
+			children = (
+				1BABE28227233AD000E3CB3B /* CollectionView */,
+			);
+			path = CustomHelpers;
+			sourceTree = "<group>";
+		};
+		1BABE28227233AD000E3CB3B /* CollectionView */ = {
+			isa = PBXGroup;
+			children = (
+				1BABE28327233AD900E3CB3B /* CollectionHelpers */,
+				1BABE28E27233C5500E3CB3B /* CollectionViewContainer.swift */,
+				1BABE29027233C7300E3CB3B /* CollectionViewDataSource.swift */,
+				1BABE29227233C8A00E3CB3B /* CollectionViewController.swift */,
+				1BABE29427233CA000E3CB3B /* ViewHolder.swift */,
+			);
+			path = CollectionView;
+			sourceTree = "<group>";
+		};
+		1BABE28327233AD900E3CB3B /* CollectionHelpers */ = {
+			isa = PBXGroup;
+			children = (
+				1BABE28427233AEF00E3CB3B /* ReusableView.swift */,
+				1BABE28627233B5200E3CB3B /* UICollectionView+Reusable.swift */,
+				1BABE28827233BCB00E3CB3B /* GenericCollectionViewCell.swift */,
+				1BABE28A27233C0E00E3CB3B /* ReusableComponent.swift */,
+				1BABE28C27233C2300E3CB3B /* GenericCellSubview.swift */,
+			);
+			path = CollectionHelpers;
+			sourceTree = "<group>";
+		};
+		1BABE29627234F2900E3CB3B /* UIComponents */ = {
+			isa = PBXGroup;
+			children = (
+				1BABE2A0272354D300E3CB3B /* HeaderView */,
+				1BABE29727234F4700E3CB3B /* MainCleanerView */,
+			);
+			path = UIComponents;
+			sourceTree = "<group>";
+		};
+		1BABE29727234F4700E3CB3B /* MainCleanerView */ = {
+			isa = PBXGroup;
+			children = (
+				1BABE29D27234FD800E3CB3B /* MainCleaner2View.swift */,
+			);
+			path = MainCleanerView;
+			sourceTree = "<group>";
+		};
+		1BABE2A0272354D300E3CB3B /* HeaderView */ = {
+			isa = PBXGroup;
+			children = (
+				1BABE2A2272354E100E3CB3B /* HeaderView.swift */,
+			);
+			path = HeaderView;
+			sourceTree = "<group>";
+		};
+		1BABE2A52723556E00E3CB3B /* Header */ = {
+			isa = PBXGroup;
+			children = (
+				1BABE2A6272355AF00E3CB3B /* MainHeaderDataSource.swift */,
+			);
+			path = Header;
+			sourceTree = "<group>";
+		};
 		1BEAA3112721B08D00169F5B = {
 			isa = PBXGroup;
 			children = (
@@ -127,6 +220,8 @@
 		1BEAA31C2721B08D00169F5B /* Cleaner files */ = {
 			isa = PBXGroup;
 			children = (
+				1BABE29627234F2900E3CB3B /* UIComponents */,
+				1BABE28127233AA300E3CB3B /* CustomHelpers */,
 				1BEAA3592721B67E00169F5B /* ApplicationServices */,
 				1BEAA3542721B55400169F5B /* Navigation */,
 				1BEAA34E2721B2EA00169F5B /* UserStories */,
@@ -179,21 +274,14 @@
 				1BEAA3532721B39D00169F5B /* Module */,
 				1BEAA3522721B38F00169F5B /* Models */,
 				1BEAA3512721B38500169F5B /* DataSources */,
-				1BEAA3502721B37B00169F5B /* Cells */,
 			);
 			path = MainCleaner;
-			sourceTree = "<group>";
-		};
-		1BEAA3502721B37B00169F5B /* Cells */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Cells;
 			sourceTree = "<group>";
 		};
 		1BEAA3512721B38500169F5B /* DataSources */ = {
 			isa = PBXGroup;
 			children = (
+				1BABE2A52723556E00E3CB3B /* Header */,
 			);
 			path = DataSources;
 			sourceTree = "<group>";
@@ -201,6 +289,8 @@
 		1BEAA3522721B38F00169F5B /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				1BABE2A82723561800E3CB3B /* MainHeaderDataSourceModel.swift */,
+				1BABE2AA27236BD900E3CB3B /* MainHeaderModel.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -396,23 +486,37 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1BABE29327233C8A00E3CB3B /* CollectionViewController.swift in Sources */,
+				1BABE28B27233C0E00E3CB3B /* ReusableComponent.swift in Sources */,
 				1BABE28027231F7B00E3CB3B /* DefaultMainCleanerPresenter.swift in Sources */,
+				1BABE29F27234FD800E3CB3B /* MainCleaner2View.swift in Sources */,
+				1BABE28F27233C5500E3CB3B /* CollectionViewContainer.swift in Sources */,
+				1BABE28727233B5200E3CB3B /* UICollectionView+Reusable.swift in Sources */,
 				1BABE27B27231F7B00E3CB3B /* DefaultMainCleanerRouter.swift in Sources */,
+				1BABE28D27233C2300E3CB3B /* GenericCellSubview.swift in Sources */,
 				1BEAA35F2721B75C00169F5B /* KeyboardService.swift in Sources */,
 				1BEAA3642721B8AE00169F5B /* PermissionServiceImpl.swift in Sources */,
 				1BEAA3562721B56500169F5B /* Coordinator.swift in Sources */,
 				1BEAA35B2721B68800169F5B /* ApplicationServices.swift in Sources */,
+				1BABE29527233CA000E3CB3B /* ViewHolder.swift in Sources */,
 				1BEAA36D2721C63400169F5B /* GlobalConstants.swift in Sources */,
+				1BABE2A7272355AF00E3CB3B /* MainHeaderDataSource.swift in Sources */,
 				1BABE27E27231F7B00E3CB3B /* MainCleanerVC.swift in Sources */,
+				1BABE28927233BCB00E3CB3B /* GenericCollectionViewCell.swift in Sources */,
 				1BEAA3622721B84D00169F5B /* PermissionService.swift in Sources */,
 				1BEAA36B2721BEA400169F5B /* TestApplicationCoordinator.swift in Sources */,
 				1BABE27F27231F7B00E3CB3B /* MainCleanerConfigurator.swift in Sources */,
 				1BEAA3582721B5CB00169F5B /* RootApplicationCoordinator.swift in Sources */,
 				1BEAA31E2721B08D00169F5B /* AppDelegate.swift in Sources */,
 				1BABE27C27231F7B00E3CB3B /* DefaultMainCleanerInteractor.swift in Sources */,
+				1BABE28527233AEF00E3CB3B /* ReusableView.swift in Sources */,
+				1BABE29127233C7300E3CB3B /* CollectionViewDataSource.swift in Sources */,
+				1BABE2A4272354E100E3CB3B /* HeaderView.swift in Sources */,
+				1BABE2AB27236BD900E3CB3B /* MainHeaderModel.swift in Sources */,
 				1BABE27D27231F7B00E3CB3B /* MainCleanerProtocols.swift in Sources */,
 				1BEAA3692721BC2E00169F5B /* MainCleanerCoordinator.swift in Sources */,
 				1BEAA3202721B08D00169F5B /* SceneDelegate.swift in Sources */,
+				1BABE2A92723561800E3CB3B /* MainHeaderDataSourceModel.swift in Sources */,
 				1BEAA3662721B90700169F5B /* PermissionResult.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

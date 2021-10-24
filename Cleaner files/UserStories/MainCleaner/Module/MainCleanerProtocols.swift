@@ -9,13 +9,15 @@
 import Foundation
 
 protocol MainCleanerInteractor {
-    func loadedView()
+	func loadedView()
 }
 
 protocol MainCleanerPresenter {
+	func handleView(_ result: MainHeaderModel)
 }
 
 protocol MainCleanerView: AnyObject {
+	func updateVie(_ model: MainHeaderModel)
 }
 
 protocol MainCleanerRouter: AnyObject {

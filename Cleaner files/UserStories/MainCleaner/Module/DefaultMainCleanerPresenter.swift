@@ -7,6 +7,7 @@
 //
 
 import Foundation
+import Combine
 
 final class DefaultMainCleanerPresenter {
 
@@ -20,4 +21,7 @@ final class DefaultMainCleanerPresenter {
 }
 
 extension DefaultMainCleanerPresenter: MainCleanerPresenter {
+	func handleView(_ result: MainHeaderModel) {
+		view?.updateVie(result)
+	}
 }
