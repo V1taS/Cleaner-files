@@ -25,7 +25,7 @@ final class DefaultMainCleanerInteractor {
 
 extension DefaultMainCleanerInteractor: MainCleanerInteractor {
 	func loadedView() {
-		let result = MainHeaderModel(name: "Test", isEnabled: true)
+		let result = MainHeaderModel(name: "", isEnabled: true)
 		presenter.handleView(result)
 	}
 }
